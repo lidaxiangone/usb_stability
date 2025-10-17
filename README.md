@@ -10,3 +10,6 @@ chmod +x /root/usb_stability_deploy.sh
 
 # 执行部署脚本
 /root/usb_stability_deploy.sh
+
+#  一键执行命令（最简单方式）如果不想保存文件，可以直接执行：
+curl -sL https://raw.githubusercontent.com/lidaxiangone/usb_stability/refs/heads/main/usb_stability_deploy.sh | sh
